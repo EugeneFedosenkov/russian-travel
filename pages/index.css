@@ -32,6 +32,6 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
-@import url(../blocks/footer/__list_copyright/footer__list_copyright.css);
+@import url(../blocks/footer/__list/-copyright/footer__list-copyright.css);
 @import url(../blocks/footer/__list/-link/footer__list-link.css);
 @import url(../blocks/footer/__list/-element/footer__list-element.css);
