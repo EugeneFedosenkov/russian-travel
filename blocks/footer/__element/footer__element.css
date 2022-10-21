@@ -1,9 +1,9 @@
-.footer__list-element {
+.footer__element {
   padding: 0 19px 0 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .footer__list-element {
-    padding: 32px 0 0 0;
+  .footer__element {
+    padding-top: 32px;
   }
 }

@@ -12,4 +12,5 @@
 Применены медиа запросы для разных разрешений, Grid и Flex.
 Подключеные нестандартные шрифты.
 
-https://github.com/EugeneFedosenkov/russian-travel.git
+Ссылка на страницу:
+https://eugenefedosenkov.github.io/russian-travel/

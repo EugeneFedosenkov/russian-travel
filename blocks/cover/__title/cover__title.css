@@ -1,4 +1,7 @@
 .cover__title {
+  list-style-type: none;
+  color: #ffffff;
+  text-decoration: none;
   padding: 0 0 32px 0;
   text-align: center;
   max-width: 560px;
@@ -13,6 +16,6 @@
     max-width: 253px;
     font-size: 32px;
     line-height: 35px;
-    padding: 0 0 16px 0;
+    padding-bottom: 16px;
   }
 }

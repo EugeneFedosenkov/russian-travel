@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <link rel="stylesheet" href="fonts//inter.css">
     <link rel="stylesheet" href="pages/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel</title>
+    <title>Путешествие</title>
   </head>
   <body class="page">
     <header class="header">
@@ -14,17 +13,14 @@
         src="images/sprint-3-images/header-logo.svg"
         alt="Логотип Россия"
       >
-      <nav class="header__menu">
         <ul class="header__list">
-          <li><a class="header__lang-ling" href="#">Ru</a></li>
-          <li><a class="header__lang-ling" href="#">En</a></li>
+          <li><a class="header__lang-link header__lang-link-active" href="#">Ru</a></li>
+          <li><a class="header__lang-link " href="#">En</a></li>
         </ul>
-      </nav>
     </header>
 
     <main class="content">
-      <section class="description">
-        <div class="lead">
+      <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
@@ -35,11 +31,9 @@
             alt="карта пути"
           >
           <p class="lead__caption">ваша полка — верхняя</p>
-        </div>
       </section>
 
-      <section class="introduction">
-        <div class="intro">
+      <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -54,16 +48,15 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li>Часовых поясов <span class="intro__list-accent">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-accent">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-accent">16</span></li>
+            <li>Природных заповедников <span class="intro__list-accent">105</span></li>
+            <li>Аэропортов <span class="intro__list-accent">241</span></li>
           </ul>
-        </div>
       </section>
 
-      <div class="photo">
+      <section class="photo">
         <ul class="photo-grid">
           <li class="photo-grid__item">
             <img
@@ -71,7 +64,7 @@
               src="images/sprint-3-images/photo-grid-train.jpg"
               alt="изображение_окно"
             >
-          </li>
+          </li> 
           <li class="photo-grid__item">
             <img
               class="photo-grid__item-img"
@@ -150,17 +143,17 @@
             >
           </li>
         </ul>
-      </div>
+      </section>
 
       <section class="cards">
         <ul class="places">
           <li class="places__place">
             <h2 class="places__title">Куршская коса</h2>
             <div class="places__website">
-              <h3 class="places__website-url-heading">URL</h3>
+              <p class="places__url-heading">URL</p>
               <a
                 target="_blank"
-                class="places__website-link"
+                class="places__link"
                 href="http://park-kosa.ru"
                 >park-kosa.ru</a
               >
@@ -191,10 +184,10 @@
           <li class="places__place">
             <h2 class="places__title">Кольский</h2>
             <div class="places__website">
-              <h3 class="places__website-url-heading">URL</h3>
+              <p class="places__url-heading">URL</p>
               <a
                 target="_blank"
-                class="places__website-link"
+                class="places__link"
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                 >National Geographic</a
               >
@@ -225,10 +218,10 @@
           <li class="places__place">
             <h2 class="places__title">Алтай</h2>
             <div class="places__website">
-              <h3 class="places__website-url-heading">URL</h3>
+              <p class="places__url-heading">URL</p>
               <a
                 target="_blank"
-                class="places__website-link"
+                class="places__link"
                 href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                 >Facebook</a
               >
@@ -259,10 +252,10 @@
           <li class="places__place">
             <h2 class="places__title">Зимний Байкал</h2>
             <div class="places__website">
-              <h3 class="places__website-url-heading">URL</h3>
+              <p class="places__url-heading">URL</p>
               <a
                 target="_blank"
-                class="places__website-link"
+                class="places__link"
                 href="https://vk.com/baikalmile"
                 >https://vk.com/baikalmile</a
               >
@@ -292,10 +285,10 @@
           <li class="places__place">
             <h2 class="places__title">Карелия</h2>
             <div class="places__website">
-              <h3 class="places__website-url-heading">URL</h3>
+              <p class="places__url-heading">URL</p>
               <a
                 target="_blank"
-                class="places__website-link"
+                class="places__link"
                 href="http://vodlozero.ru"
                 >http://vodlozero.ru/</a
               >
@@ -323,65 +316,60 @@
       </section>
 
       <section class="cover">
-        <h2 class="cover__title">
-          <a
-            target="_blank"
-            class="cover__link"
-            href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            >До Байкала «на собаках»</a
-          >
-        </h2>
-        <p class="cover__subtitle">
+        <a target="_blank" class="cover__title" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          До Байкала «на собаках»
+          </a>
+          <a target="_blank" class="cover__subtitle" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           По мотивам учебной темы о Транссибе — путешествие от столицы до
           Байкала на электричках.
-        </p>
+          </a>
       </section>
     </main>
 
-    <footer class="footer">
+    <nav class="footer">
       <ul class="footer__list">
-        <li class="footer__list-element">
+        <li class="footer__element">
           <a
             target="_blank"
-            class="footer__list-link"
+            class="footer__link"
             href="https://yandex.ru/maps"
             >Карты</a
           >
         </li>
-        <li class="footer__list-element">
+        <li class="footer__element">
           <a
             target="_blank"
-            class="footer__list-link"
+            class="footer__link"
             href="https://yandex.ru/pogoda"
             >Погода</a
           >
         </li>
-        <li class="footer__list-element">
+        <li class="footer__element">
           <a
             target="_blank"
-            class="footer__list-link"
+            class="footer__link"
             href="https://rasp.yandex.ru"
             >Расписание</a
           >
         </li>
-        <li class="footer__list-element">
+        <li class="footer__element">
           <a
             target="_blank"
-            class="footer__list-link"
+            class="footer__link"
             href="https://calendar.yandex.ru"
             >Календарь</a
           >
         </li>
-        <li class="footer__list-element">
+        <li class="footer__element">
           <a
             target="_blank"
-            class="footer__list-link"
+            class="footer__link"
             href="https://travel.yandex.ru"
             >Путешествия</a
           >
         </li>
       </ul>
-      <p class="footer__list-copyright">© 2022. Eugene Fedosenkov</p>
+      <p class="footer__copyright">© 2022. Eugene Fedosenkov</p>
     </footer>
   </body>
 </html>

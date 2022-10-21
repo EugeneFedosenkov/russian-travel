@@ -1,4 +1,7 @@
 .cover__subtitle {
+  list-style-type: none;
+  color: #ffffff;
+  text-decoration: none;
   padding: 0;
   text-align: center;
   max-width: 360px;
