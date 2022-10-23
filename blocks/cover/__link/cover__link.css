@@ -1,21 +1,33 @@
 .cover__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 740px;
+  justify-content: center;
   list-style-type: none;
   color: #ffffff;
   text-decoration: none;
-    padding: 0 0 32px 0;
   text-align: center;
-  max-width: 560px;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  margin: 0;
+  margin: 92px auto 0 auto;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    min-height: 480px;
+    margin-top: 68px;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__link {
-    max-width: 253px;
-    font-size: 32px;
-    line-height: 35px;
-    padding-bottom: 16px;
+    min-height: 200px;
+    margin-top: 52px;
   }
 }
