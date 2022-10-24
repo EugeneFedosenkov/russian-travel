@@ -2,15 +2,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
+  margin: 0;
+  padding: 0 0 26px 0;
 }
 
-.places__paragraph:first-child {
-  margin: 0;
-  padding-bottom:26px;
-}
-
-.places__paragraph:last-child {
-  margin: 0;
+.places__paragraph:last-child{
+  padding: 0;
 }
 
 @media screen and (max-width: 883px) {
@@ -27,16 +24,24 @@ line-height: 26px;
 }
 
 @media screen and (max-width: 320px){
-  .places__paragraph:first-child {
+  .places__paragraph {
     padding-bottom:25px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .places__paragraph {
-    padding: 0 16px 0 16px;
+    padding-right: 16px;
+    padding-left: 16px;
     font-size: 1em;
     line-height: 1.63em;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .places__paragraph:last-child {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 

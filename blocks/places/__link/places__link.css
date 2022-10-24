@@ -7,11 +7,11 @@
   text-decoration-line: underline;
   color: white;
   margin: 0;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
 }
 
 .places__link:hover{
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
